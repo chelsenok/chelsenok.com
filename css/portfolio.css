@@ -3,7 +3,7 @@
     float: left;
     padding: 7px;
     padding-bottom: 4px;
-    width: 33.33%;
+    width: 100%;
     transition: none;
 }
 
@@ -52,8 +52,18 @@
     color: #fff;
 }
 
-#main-wrapper #portfolio.brick .item.design > div {
+#main-wrapper #portfolio.brick .item.software > div {
     background-color: rgba(81, 194, 245, .7);
+    color: #fff;
+}
+
+#main-wrapper #portfolio.brick .item.android > div {
+    background-color: rgba(50, 209, 0, 0.7);
+    color: #fff;
+}
+
+#main-wrapper #portfolio.brick .item.other > div {
+    background-color: rgba(225, 149, 0, 0.7);
     color: #fff;
 }
 
