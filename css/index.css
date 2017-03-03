@@ -1,0 +1,304 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, cite, code,
+del, dfn, em, img, ins, kbd, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#clearfix {
+    display: inline-block;
+}
+
+* html #clearfix {
+    height: 1%;
+}
+
+#clearfix {
+    display: block;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main-wrapper #title {
+    font-family: "Oswald", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 300%;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    margin-bottom: 15px;
+}
+
+#main-wrapper .sub-title {
+    font-family: "Oswald", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#contacts-title {
+    font-family: "Oswald", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 200%;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+#main-wrapper #description {
+    font-family: "Lato", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 125%;
+    line-height: 1.7;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .3);
+}
+
+#main-wrapper #tags {
+    text-align: center;
+    height: 100%;
+}
+
+#main-wrapper .brick {
+    margin: 40px auto;
+}
+
+#main-wrapper .brick .stone {
+    width: 50%;
+    float: left;
+}
+
+#main-wrapper #my-work .item {
+    width: 50%;
+    height: 200px;
+    color: #fff;
+    float: left;
+    transition: 0.3s all;
+    position: relative;
+}
+
+#main-wrapper #my-work .item .desc {
+    font-family: "Lato", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.3;
+    padding: 10px;
+    display: none;
+}
+
+#main-wrapper #my-work .item:hover {
+    transform: rotate(-1deg) scale(1.5);
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+}
+
+#main-wrapper #my-work .item:hover > div {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#main-wrapper #my-work .item:hover .desc {
+    display: block;
+}
+
+#main-wrapper #my-work .item.small i {
+    font-size: 700%;
+}
+
+#main-wrapper #my-work .item i {
+    color: #FF4743;
+    display: block;
+    font-size: 800%;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    text-shadow: 0 0 7px rgba(0, 0, 0, .9);
+}
+
+#main-wrapper #my-work .item.android i {
+    color: #7DC265;
+}
+
+#main-wrapper #my-work .item.other i {
+    color: orange;
+}
+
+#main-wrapper #my-work .item.design i {
+    color: #51C2F5;
+}
+
+#main-wrapper #my-work .item span {
+    font-family: "Lato", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    font-size: 125%;
+}
+
+#main-wrapper #contact-form.brick #contacts {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lato", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+    line-height: 1.3;
+}
+
+#main-wrapper #contact-form.brick #contacts a {
+    text-shadow: 0 0 7px rgba(0, 0, 0, .9);
+}
+
+#main-wrapper #contact-form.brick #contacts a.skype {
+    color: #51C2F5;
+    text-decoration: none;
+}
+
+#main-wrapper #contact-form.brick #contacts a.email {
+    color: #FF4743;
+    text-decoration: none;
+}
+
+#input-field {
+    font-family: "Lato", "Roboto", "Times New Roman", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 0 0 7px rgba(0, 0, 0, .9);
+}
+
+#knowledge_cloud {
+    margin: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%
+    }
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a
+}
+
+textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s
+}
+
+textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+    color: rgba(0, 0, 0, 0.26);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.26)
+}
+
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    padding: 1.6rem 0;
+    resize: none;
+    min-height: 3rem
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: 1px;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem;
+    float: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent
+}
+
+.btn:hover {
+    background-color: #2bbbad
+}
